@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Imprima:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Iceland:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inder: Inder;
+  --font-iceland: Iceland;
+  --font-imprima: Imprima;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-font: white;
+  /* --color-aqua: rgba(0, 240, 255, 0.22); */
+  --color-aqua: #121212;
+  /* --color-gray-elevation:rgb(156, 154, 154): */
+  --color-elevation:black:
+  --color-gold: goldenrod;
+  --color-blue: skyblue;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-mobile:10px;
+}
+
+ul li{
+  list-style: none;
+}
+ul Link{
+  padding:2px 3px;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
+.block-center{
+  margin:auto;
+  
+}
+.margin-g{
+  margin: 10px;
+}
+
+.control-arrow.control-prev {
+  /* Style for the left arrow */
+  color: green;
+  background-color: yellow;
+}
+
+.control-arrow.control-next {
+  /* Style for the right arrow */
+  color: blue;
+  background-color: orange;
+}
+.text-decoration-none{
+  text-decoration: none;
+}
+/* theme */
+.theam{
+  background-color:var(--color-aqua); 
+  color:var(--color-font);
+}
+.elevation-border{
+  box-shadow:0 0 10px var(--color-elevation);
+}
+
